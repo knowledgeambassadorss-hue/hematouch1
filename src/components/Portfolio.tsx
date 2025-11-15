@@ -1,129 +1,125 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Portfolio = () => {
-  const projects = [
+  const stores = [
     {
-      title: "حملة تسويقية متكاملة",
-      category: "تسويق رقمي",
-      description: "حملة إعلانية شاملة على وسائل التواصل الاجتماعي حققت زيادة 300% في المبيعات",
-      tags: ["إعلانات", "محتوى", "تحليلات"],
-      gradient: "from-orange-500 to-red-500"
+      name: "تميز للهواتف",
+      nameEn: "Temyz Phone Store",
+      url: "https://tmyzhtf.com/",
+      description: "متجر تميز للهواتف ليس مجرد متجر لبيع الأجهزة... بل منصة ذكية تلبي احتياجات عشاق التقنية بطريقة سهلة وسريعة. تصميم عملي ومرن يعكس الاحترافية ويعرض المنتجات بأعلى جودة، مع تجربة مستخدم مريحة وسلسة. نظام الفلترة والبحث مصمم لتقليل وقت التصفح وزيادة فرص الشراء. كل عنصر يساهم في بناء ثقة العميل وتحقيق أعلى معدلات التحويل.",
+      gradient: "from-blue-500 to-cyan-500"
     },
     {
-      title: "هوية بصرية متكاملة",
-      category: "تصميم إبداعي",
-      description: "تصميم هوية بصرية عصرية لشركة ناشئة في مجال التقنية",
-      tags: ["شعار", "ألوان", "دليل العلامة"],
-      gradient: "from-blue-500 to-purple-500"
+      name: "تك حسوبي تليكوم",
+      nameEn: "Tec-Hasubi Telecom",
+      url: "https://tec-hasubi-telecom.com/",
+      description: "متجر تك حسوبي تليكوم ليس مجرد متجر إلكتروني... بل تجربة تسوق مميزة مصممة لتحويل الزائر إلى عميل في ثوانٍ. تصميم أنيق، طلب سريع، وتجربة تسوق محسوبة بدقة — والنتيجة؟ منصة تبيع بثقة، دون الحاجة إلى حملات إعلانية ضخمة.",
+      gradient: "from-purple-500 to-pink-500"
     },
     {
-      title: "فيديو ترويجي احترافي",
-      category: "إنتاج مرئي",
-      description: "إنتاج فيديو ترويجي بدقة 4K حقق أكثر من مليون مشاهدة في أسبوع",
-      tags: ["تصوير", "مونتاج", "موشن"],
-      gradient: "from-pink-500 to-rose-500"
+      name: "مس روح",
+      nameEn: "Missrouh",
+      url: "https://missrouh.com",
+      description: "متجر مس روح ليس مجرد متجر أزياء... إنه منصة فخمة تجمع بين الأناقة والجودة. تصميم ناعم وألوان راقية تفتح الشهية للأناقة، مع قائمة منتجات فاخرة وإمكانيات تسوق سهلة وسريعة. تجربة مستخدم مدروسة جيداً تدعم الثقة والتفاعل السلس — من أي جهاز.",
+      gradient: "from-rose-500 to-orange-500"
     },
     {
-      title: "موقع إلكتروني تفاعلي",
-      category: "تطوير مواقع",
-      description: "تطوير موقع تجارة إلكترونية بتجربة مستخدم مميزة وأداء عالي",
-      tags: ["React", "تجاوب", "سرعة"],
+      name: "إعطاء الزراعي",
+      nameEn: "Itaa Agricultural Store",
+      url: "https://salla.sa/itaa",
+      description: "منصة متخصصة تقدم حلول زراعية بواجهة عصرية وسهلة الاستخدام. التصميم يعكس الاهتمام بالطبيعة ويجسد هوية القطاع الزراعي بلمسة تقنية حديثة. تصنيف المنتجات واضح، والمحتوى منظم لتوصيل المعلومات بسرعة، مما يسهل على العملاء اتخاذ القرار. التجربة مصممة لتعزيز ثقة العملاء وتوفير رحلة شراء فعّالة تلبي احتياجات المزارعين والهواة والمحترفين.",
       gradient: "from-green-500 to-emerald-500"
-    },
-    {
-      title: "إدارة حسابات التواصل",
-      category: "وسائل التواصل",
-      description: "إدارة شاملة لحسابات مطعم فاخر مع محتوى يومي عالي الجودة",
-      tags: ["تخطيط", "تصميم", "تفاعل"],
-      gradient: "from-yellow-500 to-orange-500"
-    },
-    {
-      title: "استراتيجية نمو رقمية",
-      category: "استشارات",
-      description: "خطة تسويقية استراتيجية ساعدت على مضاعفة الإيرادات في 6 أشهر",
-      tags: ["تحليل", "تخطيط", "تنفيذ"],
-      gradient: "from-indigo-500 to-blue-500"
     }
   ];
 
   return (
-    <section id="portfolio" className="py-24 bg-background">
+    <section id="portfolio" className="py-24 bg-gradient-to-b from-background via-background/95 to-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            أعمالنا <span className="text-primary">الإبداعية</span>
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-6">
+            نحن لا <span className="text-primary">نعد بالنجاح</span>... بل <span className="text-primary">نصنعه</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            نفخر بمشاريعنا الناجحة التي حققت نتائج استثنائية لعملائنا
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            إليك لمحة من قصص التحول التي بنيناها مع شركائنا
           </p>
+          <div className="mt-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground">
+              المتاجر الإلكترونية <span className="text-primary">(E-commerce Stores)</span>
+            </h3>
+          </div>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+        {/* Stores Grid */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {stores.map((store, index) => (
             <Card
               key={index}
-              className="group overflow-hidden hover-lift hover:shadow-[var(--shadow-elegant)] border-2 hover:border-primary transition-all duration-300"
+              className="group overflow-hidden hover-lift hover:shadow-[var(--shadow-elegant)] border-2 hover:border-primary transition-all duration-300 bg-card/50 backdrop-blur-sm"
             >
               {/* Gradient Header */}
-              <div className={`h-48 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}>
+              <div className={`h-32 bg-gradient-to-br ${store.gradient} relative overflow-hidden`}>
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 border-4 border-white/50 rounded-full animate-pulse"></div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg">
+                    {store.name}
+                  </h3>
                 </div>
               </div>
 
               <CardContent className="p-6">
-                <Badge className="mb-3 bg-primary/10 text-primary hover:bg-primary/20 border-0">
-                  {project.category}
-                </Badge>
-                <h3 className="text-2xl font-bold mb-3 text-foreground group-hover:text-primary transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span
-                      key={tagIndex}
-                      className="px-3 py-1 bg-secondary text-foreground text-sm rounded-full font-medium"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-lg font-semibold text-muted-foreground">
+                    {store.nameEn}
+                  </p>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="rounded-full hover:bg-primary hover:text-primary-foreground border-primary/50"
+                    onClick={() => window.open(store.url, "_blank")}
+                  >
+                    <ExternalLink className="h-4 w-4 ml-2" />
+                    زيارة
+                  </Button>
                 </div>
+                
+                <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  {store.description}
+                </p>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div className="mt-16 text-center bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-3xl p-12">
-          <h3 className="text-3xl font-bold mb-4 text-foreground">
-            هل أنت مستعد لرؤية علامتك التجارية تنمو؟
+        {/* Call to Action */}
+        <div className="mt-20 text-center bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-12 border-2 border-primary/20 animate-fade-in">
+          <h3 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+            هل أنت مستعد لبدء <span className="text-primary">مشروعك القادم</span>؟
           </h3>
-          <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            دعنا نساعدك على تحقيق أهدافك من خلال حلول إبداعية ومبتكرة
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            دعنا نحول رؤيتك إلى واقع ملموس يحقق أهدافك ويتجاوز توقعاتك
           </p>
-          <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
+          <Button
+            onClick={() => {
               const element = document.querySelector("#contact");
               if (element) {
                 const offset = 80;
                 const elementPosition = element.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - offset;
-                window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+                
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: "smooth"
+                });
               }
             }}
-            className="inline-block bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-10 py-4 shadow-[var(--shadow-glow)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+            size="lg"
+            className="bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-10 py-6 text-lg shadow-[var(--shadow-glow)] hover:shadow-[var(--shadow-premium)] hover:-translate-y-2 hover:scale-105 transition-all duration-300"
           >
-            ابدأ مشروعك الآن
-          </a>
+            ابدأ مشروعك معنا
+          </Button>
         </div>
       </div>
     </section>

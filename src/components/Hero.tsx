@@ -103,29 +103,6 @@ const Hero = () => {
             </CardContent>
           </Card>
 
-          {/* Stats Section */}
-          <div className="grid md:grid-cols-3 gap-6 mt-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            <Card className="bg-secondary/50 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
-              <CardContent className="p-8 text-center">
-                <div className="text-5xl md:text-6xl font-bold text-primary mb-3">80%</div>
-                <div className="text-lg font-bold text-foreground">نمو في معدل التحويل</div>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-secondary/50 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
-              <CardContent className="p-8 text-center">
-                <div className="text-5xl md:text-6xl font-bold text-primary mb-3">100%</div>
-                <div className="text-lg font-bold text-foreground">قصة نجاح نرويها</div>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-secondary/50 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
-              <CardContent className="p-8 text-center">
-                <div className="text-5xl md:text-6xl font-bold text-primary mb-3">98%</div>
-                <div className="text-lg font-bold text-foreground">رضا شركاء النجاح</div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
