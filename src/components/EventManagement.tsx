@@ -9,7 +9,7 @@ import exhibitionStand5 from "@/assets/exhibition-stand-5.png";
 const EventManagement = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const isAutoPlayingRef = useRef(true);
   const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
 
   const slides = [
@@ -30,17 +30,6 @@ const EventManagement = () => {
       left: itemWidth * index,
       behavior: 'smooth'
     });
-    setCurrentIndex(index);
-  };
-
-  const nextSlide = () => {
-    const nextIndex = (currentIndex + 1) % slides.length;
-    scrollToIndex(nextIndex);
-  };
-
-  const prevSlide = () => {
-    const prevIndex = (currentIndex - 1 + slides.length) % slides.length;
-    scrollToIndex(prevIndex);
   };
 
   useEffect(() => {
@@ -51,9 +40,7 @@ const EventManagement = () => {
       const scrollPosition = container.scrollLeft;
       const itemWidth = container.clientWidth;
       const newIndex = Math.round(scrollPosition / itemWidth);
-      if (newIndex !== currentIndex) {
-        setCurrentIndex(newIndex);
-      }
+      setCurrentIndex(newIndex);
     };
 
     container.addEventListener('scroll', handleScroll, { passive: true });
@@ -61,12 +48,16 @@ const EventManagement = () => {
     return () => {
       container.removeEventListener('scroll', handleScroll);
     };
-  }, [currentIndex]);
+  }, []);
 
   useEffect(() => {
-    if (isAutoPlaying) {
+    if (isAutoPlayingRef.current) {
       autoPlayRef.current = setInterval(() => {
-        nextSlide();
+        setCurrentIndex(prev => {
+          const nextIndex = (prev + 1) % slides.length;
+          scrollToIndex(nextIndex);
+          return nextIndex;
+        });
       }, 5000);
     }
 
@@ -75,14 +66,23 @@ const EventManagement = () => {
         clearInterval(autoPlayRef.current);
       }
     };
-  }, [isAutoPlaying, currentIndex]);
+  }, [slides.length]);
 
   const handleUserInteraction = () => {
-    setIsAutoPlaying(false);
+    isAutoPlayingRef.current = false;
     if (autoPlayRef.current) {
       clearInterval(autoPlayRef.current);
     }
-    setTimeout(() => setIsAutoPlaying(true), 8000);
+    setTimeout(() => {
+      isAutoPlayingRef.current = true;
+      autoPlayRef.current = setInterval(() => {
+        setCurrentIndex(prev => {
+          const nextIndex = (prev + 1) % slides.length;
+          scrollToIndex(nextIndex);
+          return nextIndex;
+        });
+      }, 5000);
+    }, 8000);
   };
 
   return (
@@ -150,6 +150,7 @@ const EventManagement = () => {
                 key={index}
                 onClick={() => {
                   handleUserInteraction();
+                  setCurrentIndex(index);
                   scrollToIndex(index);
                 }}
                 className={`rounded-full transition-all duration-300 ${
