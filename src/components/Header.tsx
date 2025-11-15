@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle";
+import hemaTouchLogo from "@/assets/hema-touch-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,13 +55,11 @@ const Header = () => {
         <div className="flex justify-between items-center gap-2">
           {/* Logo */}
           <div className="flex items-center gap-2 md:gap-3">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold">
-              <span className="text-primary">HEMA</span>
-              <span className="text-foreground"> TOUCH</span>
-            </div>
-            <div className="hidden lg:block text-xs text-muted-foreground border-r border-border pr-3">
-              Marketing Solutions
-            </div>
+            <img 
+              src={hemaTouchLogo} 
+              alt="Hema Touch Marketing Solutions" 
+              className="h-8 md:h-10 lg:h-12 w-auto object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
