@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20 px-3 md:px-4">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -35,48 +35,55 @@ const Hero = () => {
         <Compass className="w-96 h-96 text-primary animate-spin" style={{ animationDuration: '60s' }} />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-3 md:px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Main Content Card */}
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-border shadow-[var(--shadow-intense)] overflow-hidden">
-            <CardContent className="p-12 md:p-16 text-center">
+            <CardContent className="p-6 md:p-12 lg:p-16 text-center">
               {/* Main Heading - Arabic */}
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
+              <h1 className="text-3xl md:text-5xl lg:text-7xl font-extrabold mb-4 md:mb-6 leading-tight">
                 <span className="text-foreground">إتجاهــك </span>
                 <span className="text-primary">الصح</span>
                 <span className="text-foreground"> يبــدأ من هنــا</span>
               </h1>
 
               {/* English Subtitle */}
-              <p className="text-2xl md:text-3xl text-primary font-bold mb-8">
+              <p className="text-xl md:text-2xl lg:text-3xl text-primary font-bold mb-6 md:mb-8">
                 The Right Direction Starts Here
               </p>
 
               {/* Divider */}
-              <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
+              <div className="w-24 md:w-32 h-1 bg-primary mx-auto mb-6 md:mb-8"></div>
 
               {/* Main Tagline */}
-              <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
+              <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-3 md:mb-4">
                 كــــل رحلـــــة تبـــــدأ بالبوصلـــــة
               </h2>
-              <h3 className="text-2xl md:text-4xl font-bold text-foreground/80 mb-12">
+              <h3 className="text-xl md:text-3xl lg:text-4xl font-bold text-foreground/80 mb-8 md:mb-12">
                 لتصـــل للنتائــج
               </h3>
 
               {/* English Translation */}
-              <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed">
                 Every journey begins with the compass & ends with measurable results
               </p>
 
-              {/* CTA Button */}
+              {/* CTA Button - Enhanced for visibility */}
               <Button
                 onClick={scrollToContact}
                 size="lg"
-                className="bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-12 py-8 text-xl shadow-[var(--shadow-glow)] hover:shadow-lg hover:-translate-y-2 transition-all duration-300 group"
+                className="bg-primary hover:bg-primary-hover text-primary-foreground font-extrabold rounded-full px-10 md:px-16 py-6 md:py-8 text-lg md:text-2xl shadow-[var(--shadow-glow)] hover:shadow-2xl hover:-translate-y-3 hover:scale-110 transition-all duration-300 group animate-pulse"
+                style={{
+                  animationDuration: '2s',
+                  animationIterationCount: '3'
+                }}
               >
                 تواصل معنا الآن
-                <ArrowLeft className="mr-3 w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                <ArrowLeft className="mr-2 md:mr-3 w-5 h-5 md:w-7 md:h-7 group-hover:translate-x-2 transition-transform" />
               </Button>
+              <p className="text-muted-foreground text-sm md:text-base mt-4">
+                احصل على استشارة مجانية الآن
+              </p>
             </CardContent>
           </Card>
 
