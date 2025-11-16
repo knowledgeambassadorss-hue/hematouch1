@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Strategy from "@/components/Strategy";
 import About from "@/components/About";
 import Problems from "@/components/Problems";
-import Expertise from "@/components/Expertise";
 import Ecosystem from "@/components/Ecosystem";
 import Methodology from "@/components/Methodology";
 import Portfolio from "@/components/Portfolio";
@@ -22,7 +21,6 @@ const Index = () => {
         <Strategy />
         <About />
         <Problems />
-        <Expertise />
         <Ecosystem />
         <Methodology />
         <Portfolio />
