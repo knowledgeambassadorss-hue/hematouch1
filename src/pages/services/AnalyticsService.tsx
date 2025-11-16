@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import analyticsIcon from "@/assets/services/analytics-icon.png";
 import analyticsBanner from "@/assets/services/analytics-banner.jpg";
 
 const AnalyticsService = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   const whatsappNumber = "966533982399";
   const whatsappMessage = "مرحباً، أريد الاستفسار عن خدمة التحليلات والتقارير";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -14,22 +21,22 @@ const AnalyticsService = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src={analyticsBanner} 
-            alt="التحليلات والتقارير" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-background"></div>
-        </div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <img src={analyticsIcon} alt="Analytics Icon" className="w-24 h-24 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+      <section className="pt-32 pb-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <Badge variant="secondary" className="mb-6 text-lg px-6 py-2">
               التحليلات والتقارير
-            </h1>
+            </Badge>
+            <div className="inline-flex items-center justify-center w-32 h-32 rounded-2xl bg-white shadow-lg mb-8">
+              <img src={analyticsIcon} alt="التحليلات والتقارير" className="w-20 h-20 object-contain" />
+            </div>
+          </div>
+          <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+            <img 
+              src={analyticsBanner}
+              alt="التحليلات والتقارير" 
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
       </section>
