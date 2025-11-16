@@ -9,14 +9,14 @@ import itaaImg from "@/assets/portfolio/itaa.jpg";
 const Portfolio = () => {
   const stores = [
     {
-      name: "تميز للهواتف",
+      name: "تميز الهاتف",
       nameEn: "Temyz Phone Store",
       url: "https://tmyzhtf.com/",
       description: "متجر تميز للهواتف ليس مجرد متجر لبيع الأجهزة... بل منصة ذكية تلبي احتياجات عشاق التقنية بطريقة سهلة وسريعة. تصميم عملي ومرن يعكس الاحترافية ويعرض المنتجات بأعلى جودة، مع تجربة مستخدم مريحة وسلسة. نظام الفلترة والبحث مصمم لتقليل وقت التصفح وزيادة فرص الشراء. كل عنصر يساهم في بناء ثقة العميل وتحقيق أعلى معدلات التحويل.",
       image: tmyzhtfImg
     },
     {
-      name: "تك حسوبي تليكوم",
+      name: "تيك حاسوبي",
       nameEn: "Tec-Hasubi Telecom",
       url: "https://tec-hasubi-telecom.com/",
       description: "متجر تك حسوبي تليكوم ليس مجرد متجر إلكتروني... بل تجربة تسوق مميزة مصممة لتحويل الزائر إلى عميل في ثوانٍ. تصميم أنيق، طلب سريع، وتجربة تسوق محسوبة بدقة — والنتيجة؟ منصة تبيع بثقة، دون الحاجة إلى حملات إعلانية ضخمة.",
@@ -61,7 +61,7 @@ const Portfolio = () => {
           {stores.map((store, index) => (
             <Card
               key={index}
-              className="group overflow-hidden border-2 hover:border-primary transition-all duration-300 hover-lift hover:shadow-[var(--shadow-elegant)] bg-card"
+              className="group overflow-hidden border-2 hover:border-primary transition-all duration-300 hover-lift bg-card"
             >
               {/* Store Image - Full Size */}
               <div className="relative overflow-hidden aspect-[4/3]">
@@ -122,7 +122,7 @@ const Portfolio = () => {
               }
             }}
             size="lg"
-            className="bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-10 py-6 text-lg shadow-[var(--shadow-glow)] hover:shadow-[var(--shadow-premium)] hover:-translate-y-2 hover:scale-105 transition-all duration-300"
+            className="bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-10 py-6 text-lg hover:-translate-y-2 hover:scale-105 transition-all duration-300"
           >
             ابدأ مشروعك معنا
           </Button>

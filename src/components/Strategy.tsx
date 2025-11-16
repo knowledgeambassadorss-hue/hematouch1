@@ -20,21 +20,21 @@ const Strategy = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl font-bold text-primary mb-4">80%</div>
+              <div className="text-7xl md:text-8xl font-bold text-primary mb-4">80%</div>
               <h3 className="text-xl font-bold text-foreground">نمو في معدل التحويل</h3>
             </CardContent>
           </Card>
 
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl font-bold text-primary mb-4">100%</div>
+              <div className="text-7xl md:text-8xl font-bold text-primary mb-4">+200</div>
               <h3 className="text-xl font-bold text-foreground">قصة نجاح نرويها</h3>
             </CardContent>
           </Card>
 
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-primary/30 hover:border-primary transition-all duration-300 hover-lift">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl font-bold text-primary mb-4">98%</div>
+              <div className="text-7xl md:text-8xl font-bold text-primary mb-4">98%</div>
               <h3 className="text-xl font-bold text-foreground">رضا شركاء النجاح</h3>
             </CardContent>
           </Card>
