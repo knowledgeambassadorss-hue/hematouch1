@@ -1,6 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import missrouhImg from "@/assets/portfolio/missrouh.jpg";
+import tecHasubiImg from "@/assets/portfolio/tec-hasubi.jpg";
+import tmyzhtfImg from "@/assets/portfolio/tmyzhtf.jpg";
+import itaaImg from "@/assets/portfolio/itaa.jpg";
 
 const Portfolio = () => {
   const stores = [
@@ -9,28 +13,28 @@ const Portfolio = () => {
       nameEn: "Temyz Phone Store",
       url: "https://tmyzhtf.com/",
       description: "متجر تميز للهواتف ليس مجرد متجر لبيع الأجهزة... بل منصة ذكية تلبي احتياجات عشاق التقنية بطريقة سهلة وسريعة. تصميم عملي ومرن يعكس الاحترافية ويعرض المنتجات بأعلى جودة، مع تجربة مستخدم مريحة وسلسة. نظام الفلترة والبحث مصمم لتقليل وقت التصفح وزيادة فرص الشراء. كل عنصر يساهم في بناء ثقة العميل وتحقيق أعلى معدلات التحويل.",
-      gradient: "from-blue-500 to-cyan-500"
+      image: tmyzhtfImg
     },
     {
       name: "تك حسوبي تليكوم",
       nameEn: "Tec-Hasubi Telecom",
       url: "https://tec-hasubi-telecom.com/",
       description: "متجر تك حسوبي تليكوم ليس مجرد متجر إلكتروني... بل تجربة تسوق مميزة مصممة لتحويل الزائر إلى عميل في ثوانٍ. تصميم أنيق، طلب سريع، وتجربة تسوق محسوبة بدقة — والنتيجة؟ منصة تبيع بثقة، دون الحاجة إلى حملات إعلانية ضخمة.",
-      gradient: "from-purple-500 to-pink-500"
+      image: tecHasubiImg
     },
     {
       name: "مس روح",
       nameEn: "Missrouh",
       url: "https://missrouh.com",
       description: "متجر مس روح ليس مجرد متجر أزياء... إنه منصة فخمة تجمع بين الأناقة والجودة. تصميم ناعم وألوان راقية تفتح الشهية للأناقة، مع قائمة منتجات فاخرة وإمكانيات تسوق سهلة وسريعة. تجربة مستخدم مدروسة جيداً تدعم الثقة والتفاعل السلس — من أي جهاز.",
-      gradient: "from-rose-500 to-orange-500"
+      image: missrouhImg
     },
     {
-      name: "إعطاء الزراعي",
+      name: "إيتاء الزراعي",
       nameEn: "Itaa Agricultural Store",
       url: "https://salla.sa/itaa",
       description: "منصة متخصصة تقدم حلول زراعية بواجهة عصرية وسهلة الاستخدام. التصميم يعكس الاهتمام بالطبيعة ويجسد هوية القطاع الزراعي بلمسة تقنية حديثة. تصنيف المنتجات واضح، والمحتوى منظم لتوصيل المعلومات بسرعة، مما يسهل على العملاء اتخاذ القرار. التجربة مصممة لتعزيز ثقة العملاء وتوفير رحلة شراء فعّالة تلبي احتياجات المزارعين والهواة والمحترفين.",
-      gradient: "from-green-500 to-emerald-500"
+      image: itaaImg
     }
   ];
 
@@ -59,19 +63,24 @@ const Portfolio = () => {
               key={index}
               className="group overflow-hidden hover-lift hover:shadow-[var(--shadow-elegant)] border-2 hover:border-primary transition-all duration-300 bg-card/50 backdrop-blur-sm"
             >
-              {/* Gradient Header */}
-              <div className={`h-32 bg-gradient-to-br ${store.gradient} relative overflow-hidden`}>
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
+              {/* Store Image */}
+              <div className="h-48 md:h-64 relative overflow-hidden">
+                <img 
+                  src={store.image} 
+                  alt={store.name}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-4 right-4 md:bottom-6 md:right-6">
                   <h3 className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg">
                     {store.name}
                   </h3>
                 </div>
               </div>
 
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <p className="text-lg font-semibold text-muted-foreground">
+              <CardContent className="p-4 md:p-6">
+                <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+                  <p className="text-base md:text-lg font-semibold text-muted-foreground">
                     {store.nameEn}
                   </p>
                   <Button

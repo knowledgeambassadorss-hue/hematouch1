@@ -86,17 +86,17 @@ const Hero = () => {
               </p>
 
               {/* CTA Button - Premium Enhanced */}
-              <div className="animate-fade-up" style={{ animationDelay: '0.7s' }}>
+              <div className="flex flex-col items-center justify-center animate-fade-up" style={{ animationDelay: '0.7s' }}>
                 <Button
                   onClick={scrollToContact}
                   size="lg"
-                  className="bg-gradient-to-r from-primary via-primary-hover to-primary hover:from-primary-hover hover:via-primary hover:to-primary-hover text-primary-foreground font-extrabold rounded-full px-12 md:px-20 py-7 md:py-10 text-xl md:text-3xl shadow-[var(--shadow-premium)] hover:shadow-[0_30px_100px_-20px_rgba(255,100,0,0.6)] hover:-translate-y-3 hover:scale-105 transition-all duration-500 group relative overflow-hidden"
+                  className="bg-gradient-to-r from-primary via-primary-hover to-primary hover:from-primary-hover hover:via-primary hover:to-primary-hover text-primary-foreground font-extrabold rounded-full px-8 sm:px-12 md:px-20 py-6 sm:py-7 md:py-10 text-lg sm:text-xl md:text-3xl shadow-[var(--shadow-premium)] hover:shadow-[0_30px_100px_-20px_rgba(255,100,0,0.6)] hover:-translate-y-3 hover:scale-105 transition-all duration-500 group relative overflow-hidden mx-auto"
                 >
                   <span className="relative z-10">تواصل معنا الآن</span>
-                  <ArrowLeft className="mr-3 md:mr-4 w-6 h-6 md:w-8 md:h-8 group-hover:translate-x-2 transition-transform relative z-10" />
+                  <ArrowLeft className="mr-2 sm:mr-3 md:mr-4 w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 group-hover:translate-x-2 transition-transform relative z-10" />
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-hover to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </Button>
-                <p className="text-muted-foreground text-base md:text-lg mt-6 font-medium">
+                <p className="text-muted-foreground text-sm sm:text-base md:text-lg mt-4 sm:mt-6 font-medium text-center">
                   احصل على استشارة مجانية الآن
                 </p>
               </div>
