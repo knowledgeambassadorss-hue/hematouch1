@@ -6,32 +6,32 @@ const Methodology = () => {
     {
       icon: <Search className="w-16 h-16" />,
       step: "الخطوة الأولى",
-      title: "البحث والتحليل",
-      description: "ندرس سوقك، منافسيك، وجمهورك بعمق لنفهم التحديات والفرص المتاحة",
+      title: "التشخيص العميق",
+      description: "نغوص في عمق تفاصيل عملك التجاري. نستمع، نحلل، ونفهم تحدياتك الحقيقية وأهدافك الكبرى.",
       color: "from-blue-500/20 to-blue-600/20",
       iconColor: "text-blue-500"
     },
     {
       icon: <Lightbulb className="w-16 h-16" />,
       step: "الخطوة الثانية",
-      title: "التخطيط الاستراتيجي",
-      description: "نضع خطة محكمة تحدد الأهداف، الرسائل، والقنوات الأنسب لعلامتك التجارية",
+      title: "هندسة الاستراتيجية",
+      description: "نرسم لك خارطة طريق للنجاح. خطة مُحكمة ومخصصة لتحقيق أهدافك بأسرع وأكفأ طريقة.",
       color: "from-yellow-500/20 to-yellow-600/20",
       iconColor: "text-yellow-500"
     },
     {
       icon: <Rocket className="w-16 h-16" />,
       step: "الخطوة الثالثة",
-      title: "التنفيذ الإبداعي",
-      description: "نطلق حملاتك بإبداع عالي وتنفيذ متقن عبر جميع القنوات التسويقية",
+      title: "الإبداع والتنفيذ",
+      description: "هنا يتحول السحر إلى حقيقة. فريقنا من المبدعين يترجمون الاستراتيجية إلى تجربة رقمية لا تُقاوم.",
       color: "from-primary/20 to-primary/30",
       iconColor: "text-primary"
     },
     {
       icon: <TrendingUp className="w-16 h-16" />,
       step: "الخطوة الرابعة",
-      title: "القياس والتحسين",
-      description: "نراقب النتائج، نحلل الأداء، ونحسن باستمرار لتحقيق أفضل عائد استثمار",
+      title: "التطور المستمر",
+      description: "نحن شركاؤك في النمو. نراقب الأداء، ونحسن باستمرار لنضمن أنك لا تصل للقمة فحسب، بل تبقى فيها.",
       color: "from-green-500/20 to-green-600/20",
       iconColor: "text-green-500"
     }
@@ -46,7 +46,7 @@ const Methodology = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            نتبع منهجية علمية مجربة تضمن تحقيق أهدافك التسويقية بكفاءة عالية
+            لا نؤمن بالصدفة، بل بالعمليات المدروسة التي تضمن نتائج استثنائية.
           </p>
         </div>
 
