@@ -48,7 +48,7 @@ const Footer = () => {
       { label: "إدارة الحملات الإعلانية", href: "/services/advertising" },
       { label: "التحليلات والتقارير", href: "/services/analytics" },
       { label: "إنتاج فيديو الموشن جرافيك", href: "/services/motion-graphics" },
-      { label: "حملات التسويق عبر المؤثرين", href: "/services/influencer" },
+      { label: "حملات التسويق عبر المؤثرين", href: "/services/influencer-marketing" },
       { label: "إدارة الفعاليات والسمعة", href: "/services/events" }
     ],
     legal: [
