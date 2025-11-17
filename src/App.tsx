@@ -19,14 +19,12 @@ import EventsService from "./pages/services/EventsService";
 const queryClient = new QueryClient();
 
 const App = () => {
-  const AppRouter = import.meta.env.PROD ? HashRouter : BrowserRouter;
-
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <AppRouter>
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/privacy" element={<Privacy />} />
@@ -41,7 +39,7 @@ const App = () => {
             <Route path="/services/events" element={<EventsService />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </AppRouter>
+        </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
   );
