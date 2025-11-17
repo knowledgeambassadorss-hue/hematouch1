@@ -5,6 +5,7 @@ import missrouhImg from "@/assets/portfolio/missrouh.jpg";
 import tecHasubiImg from "@/assets/portfolio/tec-hasubi.jpg";
 import tmyzhtfImg from "@/assets/portfolio/tmyzhtf.jpg";
 import itaaImg from "@/assets/portfolio/itaa.jpg";
+import vipGateImg from "@/assets/portfolio/vip-gate.png";
 
 const Portfolio = () => {
   const stores = [
@@ -16,14 +17,14 @@ const Portfolio = () => {
       image: tmyzhtfImg
     },
     {
-      name: "تيك حاسوبي",
+      name: "حاسوبي للاتصالات",
       nameEn: "Tec-Hasubi Telecom",
       url: "https://tec-hasubi-telecom.com/",
       description: "متجر تك حسوبي تليكوم ليس مجرد متجر إلكتروني... بل تجربة تسوق مميزة مصممة لتحويل الزائر إلى عميل في ثوانٍ. تصميم أنيق، طلب سريع، وتجربة تسوق محسوبة بدقة — والنتيجة؟ منصة تبيع بثقة، دون الحاجة إلى حملات إعلانية ضخمة.",
       image: tecHasubiImg
     },
     {
-      name: "مس روح",
+      name: "مس روح للأزياء",
       nameEn: "Missrouh",
       url: "https://missrouh.com",
       description: "متجر مس روح ليس مجرد متجر أزياء... إنه منصة فخمة تجمع بين الأناقة والجودة. تصميم ناعم وألوان راقية تفتح الشهية للأناقة، مع قائمة منتجات فاخرة وإمكانيات تسوق سهلة وسريعة. تجربة مستخدم مدروسة جيداً تدعم الثقة والتفاعل السلس — من أي جهاز.",
@@ -35,6 +36,16 @@ const Portfolio = () => {
       url: "https://salla.sa/itaa",
       description: "منصة متخصصة تقدم حلول زراعية بواجهة عصرية وسهلة الاستخدام. التصميم يعكس الاهتمام بالطبيعة ويجسد هوية القطاع الزراعي بلمسة تقنية حديثة. تصنيف المنتجات واضح، والمحتوى منظم لتوصيل المعلومات بسرعة، مما يسهل على العملاء اتخاذ القرار. التجربة مصممة لتعزيز ثقة العملاء وتوفير رحلة شراء فعّالة تلبي احتياجات المزارعين والهواة والمحترفين.",
       image: itaaImg
+    }
+  ];
+
+  const websites = [
+    {
+      name: "بوابة كبار الشخصيات",
+      nameEn: "VIP GATE",
+      url: "https://vip-gate.com/",
+      description: "VIP GATE ليست مجرد منصة سفر… بل بوابة فاخرة تلبي رغبات عشاق الرحلات المميزة بطريقة سلسة وذكية. تصميم أنيق وعملي يعكس الاحترافية ويعرض الخدمات بأعلى جودة، مع تجربة مستخدم مريحة وسهلة. نظام الحجز والتنقل داخل الموقع مصمم لتقليل الوقت وزيادة فرص الإقبال. كل عنصر يساهم في بناء ثقة العميل وتقديم تجربة سفر راقية بأعلى مستويات الرضا.",
+      image: vipGateImg
     }
   ];
 
@@ -97,6 +108,57 @@ const Portfolio = () => {
               </div>
             </Card>
           ))}
+        </div>
+
+        {/* Websites Section */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground">
+              مواقع إلكترونية <span className="text-primary">(Websites)</span>
+            </h3>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {websites.map((website, index) => (
+              <Card
+                key={index}
+                className="group overflow-hidden border-2 hover:border-primary transition-all duration-300 hover-lift bg-card"
+              >
+                {/* Website Image - Full Size */}
+                <div className="relative overflow-hidden aspect-[4/3]">
+                  <img 
+                    src={website.image} 
+                    alt={website.nameEn}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                </div>
+
+                {/* Website Content */}
+                <div className="p-6 space-y-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground mb-1">{website.name}</h3>
+                      <p className="text-sm text-muted-foreground">{website.nameEn}</p>
+                    </div>
+                  </div>
+                  
+                  <p className="text-muted-foreground leading-relaxed">
+                    {website.description}
+                  </p>
+
+                  <Button
+                    variant="outline"
+                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
+                    onClick={() => window.open(website.url, "_blank")}
+                  >
+                    <ExternalLink className="h-4 w-4 ml-2" />
+                    زيارة الموقع
+                  </Button>
+                </div>
+              </Card>
+            ))}
+          </div>
         </div>
 
         {/* Call to Action */}
