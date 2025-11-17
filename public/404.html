@@ -13,7 +13,7 @@
       (function() {
         var l = window.location;
         // For user-level GitHub Pages (username.github.io)
-        var pathSegmentsToKeep = 0;
+        var pathSegmentsToKeep = 1;
         var pathArray = l.pathname.split('/');
         var newPathname = pathArray.slice(0, 1 + pathSegmentsToKeep).join('/') + '/';
         var p = pathArray.slice(1 + pathSegmentsToKeep).join('/');
