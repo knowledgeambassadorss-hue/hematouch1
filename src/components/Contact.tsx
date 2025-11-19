@@ -200,15 +200,18 @@ ${formData.message}`;
             {/* Working Hours */}
             <Card className="border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10">
               <CardContent className="p-8">
-                <h4 className="text-xl font-bold mb-4 text-foreground">ساعات العمل</h4>
+                <h4 className="text-xl font-bold mb-4 text-foreground">مواعيد العمل</h4>
                 <div className="space-y-3 text-muted-foreground">
                   <div className="flex justify-between">
                     <span className="font-medium">السبت - الخميس:</span>
-                    <span>08:00 ص - 10:00 م</span>
+                    <span>9 ص - 12 م | 4 م - 8 م</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-medium">الجمعة:</span>
                     <span>مغلق</span>
+                  </div>
+                  <div className="text-sm mt-3 text-center">
+                    <span className="text-primary font-medium">بتوقيت السعودية</span>
                   </div>
                 </div>
               </CardContent>

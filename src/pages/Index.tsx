@@ -25,7 +25,6 @@ const Index = () => {
         <Methodology />
         <Portfolio />
         <EventManagement />
-        <Testimonials />
         <Contact />
       </main>
       <Footer />
