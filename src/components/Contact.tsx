@@ -20,7 +20,7 @@ const Contact = () => {
     
     // Create WhatsApp message with form data
     const whatsappNumber = "966533982399";
-    const message = `مرحباً، أنا ${formData.name}
+    const message = `مرحبًا، أنا ${formData.name}
 البريد الإلكتروني: ${formData.email}
 رقم الهاتف: ${formData.phone}
 
@@ -83,7 +83,7 @@ ${formData.message}`;
             تواصل <span className="text-primary">معنا</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            نحن هنا لمساعدتك في تحقيق أهدافك. تواصل معنا الآن لنبدأ مشروعك
+            نحن هنا لمساعدتك في تحقيق أهدافك، تواصل معنا الآن لنبدأ مشروعك.
           </p>
         </div>
 

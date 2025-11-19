@@ -16,15 +16,15 @@ const About = () => {
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-border shadow-[var(--shadow-elegant)] mb-12">
             <CardContent className="p-10 md:p-16">
               <p className="text-xl text-foreground leading-relaxed mb-6 text-center">
-                وكالتنا للتسويق متكاملة تأسست بهدف دعم العلامات التجارية بفاعلية من خلال تقديم حلول تسويقية وتنفيذية تتيح لها النمو والتفوق في السوق السعودي.
+                وكالتنا للتسويق متكاملة، تأسست بهدف دعم العلامات التجارية بفاعلية من خلال تقديم حلول تسويقية وتنفيذية تتيح لها النمو والتفوق في السوق السعودي.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
-                نسعى لتوفير كل ما تحتاجه العلامة التجارية من استراتيجيات وأدوات لتحقيق أهدافها التجارية والتواصل بفعالية مع جمهورها. عملاؤنا دائماً في قلب اهتماماتنا مما يدفعنا لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة التي تضمن تحقيق تطلعاتهم.
+                نسعى لتوفير كل ما تحتاجه العلامة التجارية من استراتيجيات وأدوات لتحقيق أهدافها التجارية والتواصل بفعالية مع جمهورها، عملاؤنا دائمًا في قلب اهتماماتنا، مما يدفعنا لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة التي تضمن تحقيق تطلعاتهم.
               </p>
               
               <div className="flex justify-center">
                 <a
-                  href="https://wa.me/966533982399?text=مرحباً، أريد الاستفسار عن خدماتكم"
+                  href="https://wa.me/966533982399?text=مرحبًا، أريد الاستفسار عن خدماتكم"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-gradient-to-r from-primary to-primary-hover text-primary-foreground font-bold rounded-full px-10 py-6 text-lg shadow-[var(--shadow-glow)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
@@ -44,7 +44,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">رؤيتنا</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  أن نكون الشريك الأول للعلامات التجارية في تحقيق النمو والتميز
+                  أن نكون الشريك الأول للعلامات التجارية في تحقيق النمو والتميز.
                 </p>
               </CardContent>
             </Card>
@@ -56,7 +56,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">مهمتنا</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  تقديم حلول تسويقية مبتكرة تحقق نتائج استثنائية قابلة للقياس
+                  تقديم حلول تسويقية مبتكرة تحقق نتائج استثنائية قابلة للقياس.
                 </p>
               </CardContent>
             </Card>

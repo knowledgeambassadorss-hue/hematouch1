@@ -27,7 +27,6 @@ const Header = () => {
     { label: "منهجيتنا", href: "#methodology" },
     { label: "أعمالنا", href: "#portfolio" },
     { label: "إدارة المعارض", href: "#event-management" },
-    { label: "عملاؤنا", href: "#testimonials" },
     { label: "تواصل معنا", href: "#contact" },
   ];
 

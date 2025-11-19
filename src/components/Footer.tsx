@@ -68,7 +68,7 @@ const Footer = () => {
               <span className="text-accent-foreground"> TOUCH</span>
             </div>
             <p className="text-accent-foreground/80 mb-6 leading-relaxed">
-              لمستنا الإبداعية. نموك الاستثنائي. نحن نحول أفكارك إلى واقع رقمي مبهر.
+              لمستنا الإبداعية، نموك الاستثنائي، نحن نحول أفكارك إلى واقع رقمي مبهر.
             </p>
             
             {/* Contact Info */}

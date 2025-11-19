@@ -6,17 +6,17 @@ const Problems = () => {
     {
       icon: <TrendingDown className="w-12 h-12" />,
       title: "تحويلات ضعيفة رغم الزيارات",
-      description: "تستقبل الزوار، لكنهم يغادرون دون شراء. استثمارك في جذبهم يتبخر دون أي عائد."
+      description: "تستقبل الزوار، لكنهم يغادرون دون شراء، استثمارك في جذبهم يتبخر دون أي عائد."
     },
     {
       icon: <AlertTriangle className="w-12 h-12" />,
       title: "ضعف العائد على الإنفاق التسويقي",
-      description: "ميزانيات تسويقية ضخمة ونتائج باهتة. تشعر وكأنك تستثمر في بئر لا قرار له."
+      description: "ميزانيات تسويقية ضخمة ونتائج باهتة، تشعر وكأنك تستثمر في بئر لا قرار له."
     },
     {
       icon: <UserX className="w-12 h-12" />,
       title: "انعدام الولاء للعلامة التجارية",
-      description: "يشترون مرة... ثم يختفون. علامتك التجارية لا تترك أثراً في ذاكرتهم ليجعلهم يعودون."
+      description: "يشترون مرة ثم يختفون، علامتك التجارية لا تترك أثرًا في ذاكرتهم ليجعلهم يعودون."
     }
   ];
 
@@ -26,11 +26,11 @@ const Problems = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              هل يبدو هذا الســيناريو <span className="text-primary">مألوفا</span> ؟
+              هل يبدو هذا الســيناريو <span className="text-primary">مألوفًا</span>؟
             </h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
             <p className="text-xl text-muted-foreground">
-              أنت لست وحدك... هذه هي العقبات الصامتة التي تخنق نمو العلامات التجارية الطموحة
+              أنت لست وحدك، هذه هي العقبات الصامتة التي تخنق نمو العلامات التجارية الطموحة.
             </p>
           </div>
 
@@ -59,10 +59,10 @@ const Problems = () => {
                 هنا يتغير كل شيء.
               </h3>
               <p className="text-2xl text-primary font-bold mb-6">
-                مرحباً بك في منظومة هيما تاتش
+                مرحبًا بك في منظومة هيما تاتش
               </p>
               <p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
-                نحن لا نقدم حلولاً عشوائية، بل نصمم لك منظومة نمو متكاملة. نظام ذكي مصمم خصيصاً ليحول نقاط ضعفك إلى أقوى مميزاتك التنافسية.
+                نحن لا نقدم حلولًا عشوائية، بل نصمم لك منظومة نمو متكاملة، نظام ذكي مصمم خصيصًا ليحول نقاط ضعفك إلى أقوى مميزاتك التنافسية.
               </p>
             </CardContent>
           </Card>
