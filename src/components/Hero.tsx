@@ -44,7 +44,7 @@ const Hero = () => {
             <CardContent className="p-8 md:p-12 lg:p-20 text-center">
               {/* Main Heading - Arabic */}
               <h1 className="text-4xl md:text-6xl lg:text-8xl font-extrabold mb-6 md:mb-8 leading-tight animate-fade-up">
-                <span className="text-foreground">إتجاهــك </span>
+                <span className="text-foreground">اتجاهــك </span>
                 <span className="gradient-text">الصح</span>
                 <span className="text-foreground"> يبــدأ من هنــا</span>
               </h1>
@@ -73,7 +73,7 @@ const Hero = () => {
               {/* CTA Button - Premium Enhanced */}
               <div className="flex flex-col items-center justify-center animate-fade-up" style={{ animationDelay: '0.7s' }}>
                 <a
-                  href="https://wa.me/966533982399?text=مرحباً، أريد الاستفسار عن خدماتكم"
+                  href="https://wa.me/966533982399?text=مرحبًا، أريد الاستفسار عن خدماتكم"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-gradient-to-r from-primary via-primary-hover to-primary hover:from-primary-hover hover:via-primary hover:to-primary-hover text-primary-foreground font-extrabold rounded-full px-8 sm:px-12 md:px-20 py-6 sm:py-7 md:py-10 text-lg sm:text-xl md:text-3xl shadow-[var(--shadow-premium)] hover:shadow-[0_30px_100px_-20px_rgba(255,100,0,0.6)] hover:-translate-y-3 hover:scale-105 transition-all duration-500 group relative overflow-hidden mx-auto"
@@ -83,7 +83,7 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-hover to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </a>
                 <p className="text-muted-foreground text-sm sm:text-base md:text-lg mt-4 sm:mt-6 font-medium text-center">
-                  احصل على استشارة مجانية الآن
+                  احصل على استشارة مجانية الآن.
                 </p>
               </div>
             </CardContent>

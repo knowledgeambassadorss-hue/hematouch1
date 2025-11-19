@@ -7,7 +7,7 @@ const Methodology = () => {
       icon: <Search className="w-16 h-16" />,
       step: "الخطوة الأولى",
       title: "التشخيص العميق",
-      description: "نغوص في عمق تفاصيل عملك التجاري. نستمع، نحلل، ونفهم تحدياتك الحقيقية وأهدافك الكبرى.",
+      description: "نغوص في عمق تفاصيل عملك التجاري، نستمع، نحلل، ونفهم تحدياتك الحقيقية وأهدافك الكبرى.",
       color: "from-blue-500/20 to-blue-600/20",
       iconColor: "text-blue-500"
     },
@@ -15,7 +15,7 @@ const Methodology = () => {
       icon: <Lightbulb className="w-16 h-16" />,
       step: "الخطوة الثانية",
       title: "هندسة الاستراتيجية",
-      description: "نرسم لك خارطة طريق للنجاح. خطة مُحكمة ومخصصة لتحقيق أهدافك بأسرع وأكفأ طريقة.",
+      description: "نرسم لك خارطة طريق للنجاح، خطة مُحكمة ومخصصة لتحقيق أهدافك بأسرع وأكفأ طريقة.",
       color: "from-yellow-500/20 to-yellow-600/20",
       iconColor: "text-yellow-500"
     },
@@ -23,7 +23,7 @@ const Methodology = () => {
       icon: <Rocket className="w-16 h-16" />,
       step: "الخطوة الثالثة",
       title: "الإبداع والتنفيذ",
-      description: "هنا يتحول السحر إلى حقيقة. فريقنا من المبدعين يترجمون الاستراتيجية إلى تجربة رقمية لا تُقاوم.",
+      description: "هنا يتحول السحر إلى حقيقة، فريقنا من المبدعين يترجمون الاستراتيجية إلى تجربة رقمية لا تُقاوم.",
       color: "from-primary/20 to-primary/30",
       iconColor: "text-primary"
     },
@@ -31,7 +31,7 @@ const Methodology = () => {
       icon: <TrendingUp className="w-16 h-16" />,
       step: "الخطوة الرابعة",
       title: "التطور المستمر",
-      description: "نحن شركاؤك في النمو. نراقب الأداء، ونحسن باستمرار لنضمن أنك لا تصل للقمة فحسب، بل تبقى فيها.",
+      description: "نحن شركاؤك في النمو، نراقب الأداء ونحسن باستمرار لنضمن أنك لا تصل للقمة فحسب، بل تبقى فيها.",
       color: "from-green-500/20 to-green-600/20",
       iconColor: "text-green-500"
     }
