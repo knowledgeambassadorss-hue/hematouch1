@@ -55,7 +55,7 @@ const Problems = () => {
           {/* Transition to Solution */}
           <Card className="bg-gradient-to-r from-primary/20 to-primary/10 border-2 border-primary shadow-[var(--shadow-glow)]">
             <CardContent className="p-12 text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4 whitespace-nowrap">
                 هنا يتغير كل شيء.
               </h3>
               <p className="text-2xl text-primary font-bold mb-6">
