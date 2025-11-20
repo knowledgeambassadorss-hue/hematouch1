@@ -29,7 +29,7 @@ const Problems = () => {
               هل يبدو هذا الســيناريو <span className="text-primary">مألوفًا</span>؟
             </h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground text-justify">
               أنت لست وحدك، هذه هي العقبات الصامتة التي تخنق نمو العلامات التجارية الطموحة.
             </p>
           </div>
@@ -42,11 +42,11 @@ const Problems = () => {
                     {problem.icon}
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-4">
-                    {problem.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {problem.description}
-                  </p>
+                  {problem.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-justify">
+                  {problem.description}
+                </p>
                 </CardContent>
               </Card>
             ))}
@@ -61,7 +61,7 @@ const Problems = () => {
               <p className="text-2xl text-primary font-bold mb-6">
                 مرحبًا بك في منظومة هيما تاتش
               </p>
-              <p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
+              <p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto text-justify">
                 نحن لا نقدم حلولًا عشوائية، بل نصمم لك منظومة نمو متكاملة، نظام ذكي مصمم خصيصًا ليحول نقاط ضعفك إلى أقوى مميزاتك التنافسية.
               </p>
             </CardContent>

@@ -48,7 +48,7 @@ const EventsService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
                 في HEMA Touch، نجمع بين الإبداع والتنفيذ المحترف لبناء تجربة متكاملة — من الفكرة إلى اللحظة الختامية — بحيث يظل الحدث في الذاكرة.
               </p>
             </div>

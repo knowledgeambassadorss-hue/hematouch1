@@ -66,11 +66,11 @@ const EventManagement = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-foreground mb-6">
             إدارة الفعاليات <span className="text-primary bg-gradient-to-r from-primary to-primary-hover bg-clip-text text-transparent">و المعارض</span>
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-justify">
             نحوّل تواجد علامتك التجارية على أرض الواقع إلى تجربة مباشرة وملموسة،
             في المؤتمرات ننظم الفعاليات بالكامل، نوزع هدايا، ونوفّر البانرات والبروشورات وأجهزة الصوت وشاشات العرض التي تبرز علامتك التجارية بشكل احترافي،
             أما في المعارض نصمم قسم العرض وديكوراته وشاشاته ولافتاته بالكامل لضمان تجربة جذابة تترك انطباعًا قويًا لدى الزوار،
-            كل ذلك بهدف وصول رسالتك للعملاء بفعالية وتحقيق نتائج تسويقية واضحة ومقاسة.
+            كل تفصيلة مصممة لتعزيز حضورك، وتوصيل رسالتك بوضوح، وتحقيق انطباع لا يُنسى يدوم طويلًا.
           </p>
         </div>
 
