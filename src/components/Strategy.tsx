@@ -12,7 +12,7 @@ const Strategy = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            استراتيجيات تسويقية <span className="text-primary">ثاقبة ومؤثرة</span>
+            استراتيجيات تسويق <span className="text-primary">ثاقبة</span>
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto"></div>
         </div>

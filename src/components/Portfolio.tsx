@@ -58,7 +58,7 @@ const Portfolio = () => {
             أعمالنا تتحدث <span className="text-primary">بالنتائج</span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-4">
-            نحن في هيما تاتش لا نَعِدُ بالنجاح فقط، بل نصنعه ونحققه على أرض الواقع بخبرة وإتقان، إليك لمحة مميزة عن قصص النجاح والتحول الرقمي التي بنيناها وحققناها مع شركاء نجاحنا المميزين.
+            نحن لا نَعِدُ بالنجاح، بل نصنعه، إليك لمحة عن قصص التحول التي بنيناها مع شركائنا.
           </p>
           <div className="mt-8">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground">
