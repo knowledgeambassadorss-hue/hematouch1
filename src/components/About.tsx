@@ -14,11 +14,11 @@ const About = () => {
           </div>
 
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-border shadow-[var(--shadow-elegant)] mb-12">
-            <CardContent className="p-8 md:p-12 lg:p-16">
-              <p className="text-lg md:text-xl lg:text-2xl text-foreground leading-relaxed mb-6 text-center">
+            <CardContent className="p-10 md:p-16">
+              <p className="text-xl text-foreground leading-relaxed mb-6 text-center">
                 وكالتنا للتسويق متكاملة، تأسست بهدف دعم العلامات التجارية بفاعلية من خلال تقديم حلول تسويقية وتنفيذية تتيح لها النمو والتفوق في السوق السعودي.
               </p>
-              <p className="text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed mb-8 text-center">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
                 نسعى لتوفير كل ما تحتاجه العلامة التجارية من استراتيجيات وأدوات لتحقيق أهدافها التجارية والتواصل بفعالية مع جمهورها، عملاؤنا دائمًا في قلب اهتماماتنا، مما يدفعنا لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة التي تضمن تحقيق تطلعاتهم.
               </p>
               

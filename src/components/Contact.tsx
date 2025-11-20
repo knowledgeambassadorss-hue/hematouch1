@@ -210,7 +210,7 @@ ${formData.message}`;
                     <span className="font-medium">الجمعة:</span>
                     <span>مغلق</span>
                   </div>
-                  <div className="text-base md:text-lg mt-3 text-center">
+                  <div className="text-sm mt-3 text-center">
                     <span className="text-primary font-medium">بتوقيت السعودية</span>
                   </div>
                 </div>

@@ -47,15 +47,15 @@ const InfluencerService = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
-            <div className="bg-card border border-border rounded-2xl p-6 md:p-10 lg:p-12 mb-8 shadow-lg">
-              <p className="text-lg md:text-xl lg:text-2xl text-foreground leading-relaxed">
+            <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
                 ابدأوا بالإعلان على سناب شات وحققوا الوصول إلى 90% من الناس بين 13-34 سنة الذين يستخدمون التطبيق للتواصل مع العائلة والأصدقاء. تواصلوا مع جمهور متميز بتفاعل عالٍ يفتح التطبيق أكثر من 30 مرة باليوم.
               </p>
             </div>
 
             {/* Why Snapchat Card */}
-            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-6 md:p-10 lg:p-12 mb-8">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-8 text-center leading-tight">لماذا الإعلان على سناب شات؟</h2>
+            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-8 md:p-12 mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">لماذا الإعلان على سناب شات؟</h2>
               <div className="grid gap-6">
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
                   <p className="text-lg md:text-xl text-foreground">

@@ -63,11 +63,14 @@ const EventManagement = () => {
 
         {/* Section Header & Description */}
         <div className="text-center mb-12 md:mb-16 max-w-5xl mx-auto animate-fade-in">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-foreground mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-foreground mb-6">
             إدارة الفعاليات <span className="text-primary bg-gradient-to-r from-primary to-primary-hover bg-clip-text text-transparent">و المعارض</span>
           </h2>
-          <p className="text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed px-4">
-            نحوّل تواجد علامتك التجارية على أرض الواقع إلى تجربة مباشرة وملموسة. في المؤتمرات ننظم الفعاليات بالكامل، نوزع هدايا، ونوفّر البانرات والبروشورات وأجهزة الصوت وشاشات العرض التي تبرز علامتك التجارية بشكل احترافي. أما في المعارض نصمم قسم العرض وديكوراته وشاشاته ولافتاته بالكامل لضمان تجربة جذابة تترك انطباعًا قويًا لدى الزوار. كل ذلك بهدف وصول رسالتك للعملاء بفعالية وتحقيق نتائج تسويقية واضحة ومقاسة.
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            نحوّل تواجد علامتك التجارية على أرض الواقع إلى تجربة مباشرة وملموسة،
+            في المؤتمرات ننظم الفعاليات بالكامل، نوزع هدايا، ونوفّر البانرات والبروشورات وأجهزة الصوت وشاشات العرض التي تبرز علامتك التجارية بشكل احترافي،
+            أما في المعارض نصمم قسم العرض وديكوراته وشاشاته ولافتاته بالكامل لضمان تجربة جذابة تترك انطباعًا قويًا لدى الزوار،
+            كل ذلك بهدف وصول رسالتك للعملاء بفعالية وتحقيق نتائج تسويقية واضحة ومقاسة.
           </p>
         </div>
 
