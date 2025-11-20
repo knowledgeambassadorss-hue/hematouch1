@@ -132,38 +132,6 @@ All colors MUST be HSL.
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
   }
-
-  /* Full Justification for Description Text Only */
-  p, 
-  .description,
-  .card-text,
-  .service-text,
-  .about-text,
-  .footer-text,
-  .small-text,
-  .leading-relaxed,
-  .text-muted-foreground p,
-  .text-foreground p {
-    text-align: justify;
-    text-align-last: right;
-    direction: rtl;
-    unicode-bidi: isolate;
-    hyphens: none;
-  }
-
-  /* Exclude justification from titles, buttons, and navigation */
-  h1, h2, h3, h4, h5, h6,
-  .hero-title,
-  .section-title,
-  .section-subtitle,
-  .card-title,
-  button,
-  .button,
-  nav,
-  .nav,
-  a.nav-link {
-    text-align: right;
-  }
   
   /* Premium Animations */
   .animate-fade-up {
