@@ -48,7 +48,7 @@ const AdvertisingService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify-balanced">
                 هل تبحث عن حملة إعلانية احترافية تحقق أهدافك التسويقية؟ في هيما تاتش، نقدم لك حلولًا متكاملة لإدارة الحملات الإعلانية، مما يساعدك على زيادة الوعي بعلامتك التجارية، جذب العملاء المحتملين، وتحقيق أعلى عائد على الاستثمار. نعتمد على استراتيجيات تسويقية مدروسة لكل نشاط تجاري، مع تصميم إعلانات جذابة، استهداف دقيق للجمهور، إدارة الميزانية بكفاءة، وتحليل الأداء المستمر لضمان تحقيق أفضل النتائج.
               </p>
             </div>

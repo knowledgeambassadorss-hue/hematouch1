@@ -15,10 +15,10 @@ const About = () => {
 
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-border shadow-[var(--shadow-elegant)] mb-12">
             <CardContent className="p-10 md:p-16">
-              <p className="text-xl text-foreground leading-relaxed mb-6 text-justify">
+              <p className="text-xl text-foreground leading-relaxed mb-6 text-justify-balanced">
                 وكالتنا للتسويق متكاملة، تأسست بهدف دعم العلامات التجارية بفاعلية من خلال تقديم حلول تسويقية وتنفيذية تتيح لها النمو والتفوق في السوق السعودي.
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify-balanced">
                 نسعى لتوفير كل ما تحتاجه العلامة التجارية من استراتيجيات وأدوات لتحقيق أهدافها التجارية والتواصل بفعالية مع جمهورها، عملاؤنا دائمًا في قلب اهتماماتنا، مما يدفعنا لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة التي تضمن تحقيق تطلعاتهم.
               </p>
               
@@ -43,7 +43,7 @@ const About = () => {
                   <Target className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">رؤيتنا</h3>
-                <p className="text-muted-foreground leading-relaxed text-justify">
+                <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                   أن نكون الشريك الأول للعلامات التجارية في تحقيق النمو والتميز.
                 </p>
               </CardContent>
@@ -55,7 +55,7 @@ const About = () => {
                   <TrendingUp className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">مهمتنا</h3>
-                <p className="text-muted-foreground leading-relaxed text-justify">
+                <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                   تقديم حلول تسويقية مبتكرة تحقق نتائج استثنائية قابلة للقياس.
                 </p>
               </CardContent>
@@ -67,7 +67,7 @@ const About = () => {
                   <Users className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">قيمنا</h3>
-                <p className="text-muted-foreground leading-relaxed text-justify">
+                <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                   الإبداع، الاحترافية، والالتزام بتحقيق أهداف عملائنا
                 </p>
               </CardContent>

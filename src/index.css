@@ -237,4 +237,15 @@ All colors MUST be HSL.
       transform: scale(1.05);
     }
   }
+
+  /* Enhanced text justification with balanced spacing */
+  .text-justify-balanced {
+    text-align: justify;
+    text-align-last: right;
+    letter-spacing: 0.015em;
+    word-spacing: -0.03em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
 }

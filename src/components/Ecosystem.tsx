@@ -41,7 +41,7 @@ const Ecosystem = () => {
             منظومتنا <span className="text-primary">الإبداعية</span>
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify-balanced">
             نظام متكامل يجمع بين الإبداع والتكنولوجيا والخبرة لتحقيق نتائج استثنائية
           </p>
         </div>
@@ -64,7 +64,7 @@ const Ecosystem = () => {
                 <h3 className="text-2xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">
                   {step.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed text-justify text-lg">
+                <p className="text-muted-foreground leading-relaxed text-justify-balanced text-lg">
                   {step.description}
                 </p>
               </CardContent>
@@ -79,7 +79,7 @@ const Ecosystem = () => {
               <h3 className="text-3xl font-bold text-foreground mb-4">
                 جاهز لتحويل علامتك التجارية؟
               </h3>
-              <p className="text-lg text-muted-foreground mb-8 text-justify">
+              <p className="text-lg text-muted-foreground mb-8 text-justify-balanced">
                 دعنا نصمم منظومة النمو المثالية لعملك
               </p>
               <button

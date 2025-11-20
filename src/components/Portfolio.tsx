@@ -57,7 +57,7 @@ const Portfolio = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-6">
             أعمالنا تتحدث <span className="text-primary">بالنتائج</span>
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-4">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-4 text-justify-balanced">
             نحن لا نَعِدُ بالنجاح، بل نصنعه، إليك لمحة عن قصص التحول التي بنيناها مع شركائنا.
           </p>
           <div className="mt-8">
@@ -93,7 +93,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed text-justify">
+                <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                   {store.description}
                 </p>
 
@@ -143,7 +143,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                   
-                  <p className="text-muted-foreground leading-relaxed text-justify">
+                  <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                     {website.description}
                   </p>
 
@@ -166,7 +166,7 @@ const Portfolio = () => {
           <h3 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
             هل أنت مستعد لبدء <span className="text-primary">مشروعك القادم</span>؟
           </h3>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-justify-balanced">
             دعنا نحول رؤيتك إلى واقع ملموس يحقق أهدافك ويتجاوز توقعاتك
           </p>
           <Button
