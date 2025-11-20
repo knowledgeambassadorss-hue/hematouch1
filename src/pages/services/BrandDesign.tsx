@@ -52,8 +52,8 @@ const BrandDesign = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             {/* Introduction */}
-            <div className="bg-card/50 backdrop-blur-xl rounded-3xl p-8 md:p-12 mb-12 border-2 border-primary/10 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
+            <div className="bg-card/50 backdrop-blur-xl rounded-3xl p-6 md:p-10 lg:p-12 mb-12 border-2 border-primary/10 shadow-lg">
+              <p className="text-lg md:text-xl lg:text-2xl text-foreground leading-relaxed">
                 هل تبحث عن هوية بصرية احترافية تعكس علامتك التجارية؟ في هيما تاتش، نقدم لك حلولًا متكاملة لتصميم هوية بصرية مميزة تعزز وجودك في السوق وتترك انطباعًا قويًا لدى جمهورك. نعتمد على استراتيجيات تصميم إبداعية لكل نشاط تجاري، مع إنشاء شعار احترافي، اختيار الألوان والخطوط المناسبة، وتطوير دليل هوية لضمان تناسق علامتك التجارية.
               </p>
             </div>
@@ -64,7 +64,7 @@ const BrandDesign = () => {
                 <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center">
                   <Sparkles className="w-6 h-6 text-primary" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">ماذا نقدم؟</h2>
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight">ماذا نقدم؟</h2>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
