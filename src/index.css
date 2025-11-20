@@ -242,10 +242,11 @@ All colors MUST be HSL.
   .text-justify-balanced {
     text-align: justify;
     text-align-last: right;
-    letter-spacing: 0.015em;
-    word-spacing: -0.03em;
+    letter-spacing: 0.03em;
+    word-spacing: -0.06em;
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
+    text-justify: inter-word;
   }
 }
