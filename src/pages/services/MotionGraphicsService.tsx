@@ -48,7 +48,7 @@ const MotionGraphicsService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
                 هل تبحث عن موشن جرافيك احترافي يعزز علامتك التجارية؟ في هيما تاتش، نقدم لك حلولًا إبداعية لإنتاج فيديوهات موشن جرافيك تجذب الانتباه، توضح أفكارك، وتساعد في إيصال رسالتك بفعالية. نعتمد على استراتيجيات بصرية مخصصة، مع تصاميم احترافية، سيناريوهات إبداعية، ورسوم متحركة جذابة.
               </p>
             </div>

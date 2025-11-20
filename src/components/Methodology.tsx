@@ -45,7 +45,7 @@ const Methodology = () => {
             منهجيتنا: <span className="text-primary">٤ خطوات</span> نحو الريادة
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-justify">
             لا نؤمن بالصدفة، بل بالعمليات المدروسة التي تضمن نتائج استثنائية.
           </p>
         </div>
@@ -69,7 +69,7 @@ const Methodology = () => {
                       <h3 className="text-3xl font-bold text-foreground mb-4">
                         {step.title}
                       </h3>
-                      <p className="text-lg text-muted-foreground leading-relaxed">
+                      <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                         {step.description}
                       </p>
                     </div>
@@ -96,7 +96,7 @@ const Methodology = () => {
         <div className="mt-16 text-center">
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-primary/30 max-w-3xl mx-auto">
             <CardContent className="p-10">
-              <p className="text-lg text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed text-justify">
                 <span className="text-primary font-bold">النتيجة:</span> منظومة تسويقية متكاملة تحول تحدياتك إلى فرص، وتضع علامتك التجارية في موقع الصدارة
               </p>
             </CardContent>

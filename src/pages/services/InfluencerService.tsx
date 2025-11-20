@@ -48,7 +48,7 @@ const InfluencerService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
                 ابدأوا بالإعلان على سناب شات وحققوا الوصول إلى 90% من الناس بين 13-34 سنة الذين يستخدمون التطبيق للتواصل مع العائلة والأصدقاء. تواصلوا مع جمهور متميز بتفاعل عالٍ يفتح التطبيق أكثر من 30 مرة باليوم.
               </p>
             </div>
@@ -58,22 +58,22 @@ const InfluencerService = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">لماذا الإعلان على سناب شات؟</h2>
               <div className="grid gap-6">
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
-                  <p className="text-lg md:text-xl text-foreground">
+                  <p className="text-lg md:text-xl text-foreground text-justify">
                     <strong className="text-primary">اجذبوا تفاعلاً حقيقياً أقوى:</strong> الناس أكثر سعادة وتقبّلاً للإعلانات على سناب شات لأنهم يشعرون بالحرية في التعبير عن أنفسهم.
                   </p>
                 </div>
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
-                  <p className="text-lg md:text-xl text-foreground">
+                  <p className="text-lg md:text-xl text-foreground text-justify">
                     <strong className="text-primary">الوصول إلى جيل الألفية وما بعده:</strong> أكثر من 90% من الشباب بين 13 و34 سنة يتواصلون مع الأصدقاء والمؤثرين والشركات.
                   </p>
                 </div>
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
-                  <p className="text-lg md:text-xl text-foreground">
+                  <p className="text-lg md:text-xl text-foreground text-justify">
                     <strong className="text-primary">تواجدوا حيث يتواجد التسوق الاجتماعي:</strong> يعتبر سناب شات المنصة الأولى لمشاركة المشتريات ولحظات التسوق، بقدرة شرائية تصل إلى تريليونات الدولارات عالمياً.
                   </p>
                 </div>
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
-                  <p className="text-lg md:text-xl text-foreground">
+                  <p className="text-lg md:text-xl text-foreground text-justify">
                     <strong className="text-primary">إعلانكم جاهز خلال دقائق:</strong> ما عليكم سوى التواصل معنا واختيار طريقة الإعلان التي تريدونها (صورة أو فيديو) أو إنشاء إعلانٍ حي مع المؤثرين الموثقين.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const InfluencerService = () => {
             {/* Budget Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">حقّقوا أكبر استفادة من ميزانيتكم</h2>
-              <p className="text-lg md:text-xl text-foreground leading-relaxed">
+              <p className="text-lg md:text-xl text-foreground leading-relaxed text-justify">
                 نحن في HEMA Touch نساعدكم في اختيار أفضل المؤثرين على سناب شات بناءً على أهدافكم التسويقية وميزانيتكم. بإمكانكم البدء بتكاليف منخفضة وتحقيق نتائج ملموسة — سواءً كنتم تسعون لزيادة الوعي بالعلامة التجارية، الوصول لجمهور أوسع، أو تحقيق مبيعات مباشرة.
               </p>
             </div>

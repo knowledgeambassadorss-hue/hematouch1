@@ -93,7 +93,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed text-justify">
                   {store.description}
                 </p>
 
@@ -143,7 +143,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                   
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed text-justify">
                     {website.description}
                   </p>
 
