@@ -47,15 +47,15 @@ const AnalyticsService = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
-            <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed">
+            <div className="bg-card border border-border rounded-2xl p-6 md:p-10 lg:p-12 mb-8 shadow-lg">
+              <p className="text-lg md:text-xl lg:text-2xl text-foreground leading-relaxed">
                 في هيما تاتش، نقدم متابعة نتائج الحملات الإعلانية ودراسة النتائج ومقارنة العائد على الاستثمار، ونضع الخطط بناءً على نتائج التحليل لتحقيق أفضل أداء مستدام، مما يساعدك على تحقيق مبيعات أكبر، وصول أوسع، ونمو مستدام.
               </p>
             </div>
 
             {/* Services Card */}
-            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-8 md:p-12 mb-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">ماذا نقدّم؟</h2>
+            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-6 md:p-10 lg:p-12 mb-8">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-8 text-center leading-tight">ماذا نقدّم؟</h2>
               <div className="grid gap-6">
                 <div className="bg-background/80 backdrop-blur rounded-xl p-6 border border-border/50 hover:shadow-lg transition-all duration-300">
                   <p className="text-lg md:text-xl text-foreground">
