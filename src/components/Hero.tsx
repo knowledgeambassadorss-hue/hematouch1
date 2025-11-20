@@ -66,7 +66,7 @@ const Hero = () => {
               </h3>
 
               {/* English Translation */}
-              <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 md:mb-14 max-w-4xl mx-auto leading-relaxed text-left animate-fade-up" style={{ animationDelay: '0.6s' }}>
+              <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 md:mb-14 max-w-4xl mx-auto leading-relaxed text-center animate-fade-up" style={{ animationDelay: '0.6s' }}>
                 Every journey begins with the compass & ends with measurable results
               </p>
 
