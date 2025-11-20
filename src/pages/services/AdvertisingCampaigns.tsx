@@ -46,8 +46,8 @@ const AdvertisingCampaigns = () => {
             {/* Main Content */}
             <div className="lg:col-span-2">
               <h2 className="text-3xl font-bold mb-6 text-foreground">حملات إعلانية احترافية تحقق نتائج ملموسة</h2>
-              <p className="text-muted-foreground mb-8 leading-relaxed">
-                في هيما تاتش، نقدم خدمات إدارة الحملات الإعلانية على منصات متعددة مثل Google Ads، Facebook Ads، Instagram، TikTok، وSnapchat. نساعدك على الوصول إلى جمهورك المستهدف بدقة، وزيادة المبيعات، وتحقيق أعلى عائد على الاستثمار (ROI).
+              <p className="text-muted-foreground mb-8 leading-relaxed text-justify">
+                في هيما تاتش، نقدم لك خدمات متخصصة احترافية في إدارة وتنفيذ الحملات الإعلانية المدفوعة على منصات رقمية متعددة ومتنوعة مثل إعلانات جوجل، إعلانات فيسبوك، إنستجرام، تيك توك، وسناب شات وغيرها الكثير، نساعدك بفعالية كبيرة على الوصول الدقيق المباشر إلى جمهورك المستهدف المحدد بعناية، وزيادة ملحوظة كبيرة في معدلات المبيعات والتحويلات، وتحقيق أعلى وأفضل عائد ممكن على الاستثمار التسويقي لأعمالك التجارية.
               </p>
 
               <h3 className="text-2xl font-bold mb-4 text-foreground">ماذا نقدم؟</h3>

@@ -15,11 +15,11 @@ const About = () => {
 
           <Card className="bg-card/80 backdrop-blur-xl border-2 border-border shadow-[var(--shadow-elegant)] mb-12">
             <CardContent className="p-10 md:p-16">
-              <p className="text-xl text-foreground leading-relaxed mb-6 text-center">
-                وكالتنا للتسويق متكاملة، تأسست بهدف دعم العلامات التجارية بفاعلية من خلال تقديم حلول تسويقية وتنفيذية تتيح لها النمو والتفوق في السوق السعودي.
+              <p className="text-xl text-foreground leading-relaxed mb-6 text-justify">
+                وكالتنا للتسويق الرقمي متكاملة الخدمات، تأسست برؤية واضحة لدعم العلامات التجارية المحلية والإقليمية من خلال تقديم حلول تسويقية مبتكرة وتنفيذية عالية الجودة، تمكنها من تحقيق النمو المستدام والتفوق التنافسي في السوق السعودي الديناميكي المتطور، مع التركيز على تعزيز الحضور الرقمي وبناء هوية قوية مميزة.
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
-                نسعى لتوفير كل ما تحتاجه العلامة التجارية من استراتيجيات وأدوات لتحقيق أهدافها التجارية والتواصل بفعالية مع جمهورها، عملاؤنا دائمًا في قلب اهتماماتنا، مما يدفعنا لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة التي تضمن تحقيق تطلعاتهم.
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify">
+                نسعى بشكل دائم ومستمر لتوفير كل ما تحتاجه العلامات التجارية من استراتيجيات تسويقية ذكية، أدوات تقنية حديثة، وحلول إبداعية متطورة تساعدها على تحقيق أهدافها التجارية الطموحة والتواصل بفعالية واحترافية مع جمهورها المستهدف بطرق مؤثرة، عملاؤنا وشركاء نجاحنا دائماً في قلب اهتماماتنا، مما يدفعنا باستمرار لتقديم أفضل الحلول المبتكرة والخدمات عالية الجودة المصممة خصيصاً لتضمن تحقيق تطلعاتهم وتجاوز توقعاتهم بامتياز.
               </p>
               
               <div className="flex justify-center">
@@ -43,8 +43,8 @@ const About = () => {
                   <Target className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">رؤيتنا</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  أن نكون الشريك الأول للعلامات التجارية في تحقيق النمو والتميز.
+                <p className="text-muted-foreground leading-relaxed text-justify">
+                  أن نكون الشريك الاستراتيجي الأول والأكثر موثوقية للعلامات التجارية في رحلتها نحو تحقيق النمو المستدام والتميز التنافسي في العالم الرقمي.
                 </p>
               </CardContent>
             </Card>
@@ -55,8 +55,8 @@ const About = () => {
                   <TrendingUp className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">مهمتنا</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  تقديم حلول تسويقية مبتكرة تحقق نتائج استثنائية قابلة للقياس.
+                <p className="text-muted-foreground leading-relaxed text-justify">
+                  تقديم حلول تسويقية إبداعية ومبتكرة بمعايير عالمية تحقق نتائج استثنائية ملموسة وقابلة للقياس والتطوير بشكل مستمر ومستدام.
                 </p>
               </CardContent>
             </Card>
@@ -67,8 +67,8 @@ const About = () => {
                   <Users className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">قيمنا</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  الإبداع، الاحترافية، والالتزام بتحقيق أهداف عملائنا
+                <p className="text-muted-foreground leading-relaxed text-justify">
+                  الإبداع والابتكار المستمر في جميع جوانب العمل التسويقي، مع الاحترافية العالية والالتزام الكامل بتحقيق أهداف عملائنا وتجاوز كل توقعاتهم بامتياز.
                 </p>
               </CardContent>
             </Card>
