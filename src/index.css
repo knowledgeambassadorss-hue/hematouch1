@@ -238,10 +238,14 @@ All colors MUST be HSL.
     }
   }
 
-  /* Enhanced text alignment for Arabic */
+  /* Enhanced text justification with balanced spacing */
   .text-justify-balanced {
-    text-align: right;
-    letter-spacing: normal;
-    word-spacing: normal;
+    text-align: justify;
+    text-align-last: right;
+    letter-spacing: 0.015em;
+    word-spacing: -0.03em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
   }
 }
