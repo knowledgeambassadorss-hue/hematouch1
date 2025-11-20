@@ -1,9 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* This file is deprecated - all styles moved to index.css */
 
 .logo {
   height: 6em;
