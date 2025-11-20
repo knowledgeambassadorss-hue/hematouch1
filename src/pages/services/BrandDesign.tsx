@@ -53,7 +53,7 @@ const BrandDesign = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction */}
             <div className="bg-card/50 backdrop-blur-xl rounded-3xl p-8 md:p-12 mb-12 border-2 border-primary/10 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify-balanced">
                 هل تبحث عن هوية بصرية احترافية تعكس علامتك التجارية؟ في هيما تاتش، نقدم لك حلولًا متكاملة لتصميم هوية بصرية مميزة تعزز وجودك في السوق وتترك انطباعًا قويًا لدى جمهورك. نعتمد على استراتيجيات تصميم إبداعية لكل نشاط تجاري، مع إنشاء شعار احترافي، اختيار الألوان والخطوط المناسبة، وتطوير دليل هوية لضمان تناسق علامتك التجارية.
               </p>
             </div>
@@ -73,7 +73,7 @@ const BrandDesign = () => {
                     <Target className="w-7 h-7 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">إعداد الهوية البصرية</h3>
-                  <p className="text-muted-foreground leading-relaxed text-justify">
+                  <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                     ندرس نشاطك التجاري والجمهور المستهدف لإنشاء هوية بصرية مميزة تعكس رؤيتك وأهدافك.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const BrandDesign = () => {
                     <Palette className="w-7 h-7 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">تصميم العناصر البصرية</h3>
-                  <p className="text-muted-foreground leading-relaxed text-justify">
+                  <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                     نبتكر تصاميم احترافية تشمل الشعار، الألوان، الخطوط، والأنماط البصرية، مما يمنح علامتك شخصية متناسقة وجذابة.
                   </p>
                 </div>
@@ -93,7 +93,7 @@ const BrandDesign = () => {
                     <Sparkles className="w-7 h-7 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">تطوير الهوية البصرية الرقمية</h3>
-                  <p className="text-muted-foreground leading-relaxed text-justify">
+                  <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                     نُطلق حملات إعلانية مستهدفة لزيادة الوصول والمبيعات، مع تحليل النتائج لتحسين الأداء باستمرار.
                   </p>
                 </div>
@@ -103,7 +103,7 @@ const BrandDesign = () => {
                     <TrendingUp className="w-7 h-7 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">تحليل الأداء والتطوير</h3>
-                  <p className="text-muted-foreground leading-relaxed text-justify">
+                  <p className="text-muted-foreground leading-relaxed text-justify-balanced">
                     نوفر لك استشارات وتحديثات دورية لتحسين وتطوير الهوية البصرية وفقًا لاتجاهات السوق.
                   </p>
                 </div>
@@ -116,15 +116,15 @@ const BrandDesign = () => {
               <div className="space-y-6">
                 <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/30">
                   <h3 className="text-xl font-bold text-foreground mb-3">ما الذي تشمله خدمة تصميم الهوية البصرية؟</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed text-justify">تشمل إنشاء شعار احترافي، اختيار ألوان وخطوط، تصميم نمط بصري موحد، وإعداد دليل استخدام الهوية والمواد التسويقية.</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify-balanced">تشمل إنشاء شعار احترافي، اختيار ألوان وخطوط، تصميم نمط بصري موحد، وإعداد دليل استخدام الهوية والمواد التسويقية.</p>
                 </div>
                 <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/30">
                   <h3 className="text-xl font-bold text-foreground mb-3">هل يمكنكم تصميم هوية متكاملة؟</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed text-justify">نعم، نقدم تصميم هوية بصرية متكاملة تشمل جميع العناصر البصرية لضمان تناسق وتميز علامتك التجارية.</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify-balanced">نعم، نقدم تصميم هوية بصرية متكاملة تشمل جميع العناصر البصرية لضمان تناسق وتميز علامتك التجارية.</p>
                 </div>
                 <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/30">
                   <h3 className="text-xl font-bold text-foreground mb-3">هل تقدمون دليل استخدام الهوية البصرية؟</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed text-justify">نعم، نقدم دليل استخدام الهوية (Brand Guidelines) الذي يتضمن تفاصيل عن الاستخدام الصحيح لجميع عناصر الهوية.</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify-balanced">نعم، نقدم دليل استخدام الهوية (Brand Guidelines) الذي يتضمن تفاصيل عن الاستخدام الصحيح لجميع عناصر الهوية.</p>
                 </div>
               </div>
             </div>

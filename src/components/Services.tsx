@@ -77,7 +77,7 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-foreground">
             خدماتنا <span className="gradient-text">المتميزة</span>
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-justify">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-justify-balanced">
             نقدم مجموعة شاملة من الخدمات الإبداعية التي تساعدك على التميز والنمو في عالم الأعمال الرقمي.
           </p>
         </div>

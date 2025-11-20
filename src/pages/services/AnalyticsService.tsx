@@ -48,7 +48,7 @@ const AnalyticsService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify-balanced">
                 في هيما تاتش، نقدم متابعة نتائج الحملات الإعلانية ودراسة النتائج ومقارنة العائد على الاستثمار، ونضع الخطط بناءً على نتائج التحليل لتحقيق أفضل أداء مستدام، مما يساعدك على تحقيق مبيعات أكبر، وصول أوسع، ونمو مستدام.
               </p>
             </div>

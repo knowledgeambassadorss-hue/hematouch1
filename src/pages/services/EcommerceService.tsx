@@ -48,7 +48,7 @@ const EcommerceService = () => {
           <div className="max-w-5xl mx-auto">
             {/* Introduction Card */}
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 mb-8 shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed text-justify-balanced">
                 هل تبحث عن موقع إلكتروني احترافي يعكس هوية علامتك التجارية؟ في هيما تاتش، نقدم لك حلولاً متكاملة لإنشاء موقع إلكتروني مميز يساعدك على تعزيز تواجدك الرقمي، جذب العملاء، وتحقيق أهدافك التجارية. نعتمد على أحدث التقنيات في تصميم وتطوير المواقع، مع تحسين الأداء، توافق المواقع مع جميع الأجهزة، وتجربة مستخدم سلسة لضمان أفضل النتائج.
               </p>
             </div>
@@ -56,7 +56,7 @@ const EcommerceService = () => {
             {/* Services Card */}
             <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-8 md:p-12 mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">ماذا نقدم؟</h2>
-              <p className="text-lg md:text-xl text-foreground mb-8 text-justify">
+              <p className="text-lg md:text-xl text-foreground mb-8 text-justify-balanced">
                 في هيما تاتش، نقدم خدمات متكاملة لإنشاء المواقع الإلكترونية، مما يساعدك على تحقيق حضور قوي، تجربة مستخدم مميزة، ونمو مستدام. إليك ما نقدمه لك:
               </p>
               <div className="grid gap-6">

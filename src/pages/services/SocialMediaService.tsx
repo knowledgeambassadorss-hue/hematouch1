@@ -46,7 +46,7 @@ const SocialMediaService = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
-              <p className="text-xl text-foreground leading-relaxed mb-8 text-justify">
+              <p className="text-xl text-foreground leading-relaxed mb-8 text-justify-balanced">
                 هل تبحث عن إدارة احترافية لحساباتك على مواقع التواصل الاجتماعي؟ في هيما تاتش، نقدم لك حلولاً متكاملة لتعزيز الوعي بعلامتك التجارية، وزيادة التفاعل مع جمهورك، وتحقيق نمو حقيقي لأعمالك. نعتمد على استراتيجيات تسويقية مخصصة، مع إنشاء محتوى جذاب، وجدولة منتظمة، وإدارة التفاعل، وتحليل البيانات.
               </p>
 
